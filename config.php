@@ -1,5 +1,5 @@
 <?php
-define('APP_URL', 'http://localhost/IADT-CC-Y2/test/login-start');
+define('APP_URL', 'http://localhost/IADT-CC-Y2/2021-02-03-login');
 define("UPLOAD_DIR", "uploads");
 
 define('DB_SERVER', 'localhost');

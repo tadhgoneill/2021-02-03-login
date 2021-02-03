@@ -112,5 +112,12 @@ class HttpRequest {
         header("Location: ".APP_URL.$url);
         exit();
     }
+
+public function set_error($key, $value) {
+    if (isset($this->errors) && is_array($this->errors)) {
+      $this->errors[$key] = $value;
+    }
+  }
+
 }
 ?>
